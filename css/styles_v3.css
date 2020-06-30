@@ -282,7 +282,7 @@ span a i {
     border-bottom: 1px solid #fff;
 }
 
-
+/* Mobile responsiveness */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .middle {
@@ -324,5 +324,16 @@ span a i {
     }
     .mobile-nav{
         display: inline;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .box1 {
+        height: 250px;
+        background-position: center;
     }
 }
