@@ -336,4 +336,13 @@ span a i {
         height: 250px;
         background-position: center;
     }
+    .mycenter{
+        margin-left: 1.5rem;
+    }
+    .mycenter2{
+        margin-left: 1rem;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #fff;
+    }
 }
